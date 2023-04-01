@@ -1,0 +1,77 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Tesseract_test/1.0.0": {
+        "dependencies": {
+          "BitMiracle.Docotic.Pdf": "8.8.14015",
+          "Tesseract": "5.2.0",
+          "ILMerge": "3.0.41"
+        },
+        "runtime": {
+          "Tesseract_test.dll": {}
+        }
+      },
+      "BitMiracle.Docotic.Pdf/8.8.14015": {
+        "runtime": {
+          "lib/netstandard2.0/BitMiracle.Docotic.Pdf.dll": {
+            "assemblyVersion": "8.8.14015.0",
+            "fileVersion": "8.8.14015.0"
+          }
+        }
+      },
+      "ILMerge/3.0.41": {},
+      "System.Reflection.Emit/4.7.0": {},
+      "Tesseract/5.2.0": {
+        "dependencies": {
+          "System.Reflection.Emit": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Tesseract.dll": {
+            "assemblyVersion": "5.2.0.0",
+            "fileVersion": "5.2.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Tesseract_test/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BitMiracle.Docotic.Pdf/8.8.14015": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LRYer9AHKXlOMwsQq2FXTUD6LBR6rcNaS5v7xzbCV1FI5RTv6D7D3aMPBVPKqsAovS9EQV8y5yEbsa101Joz/w==",
+      "path": "bitmiracle.docotic.pdf/8.8.14015",
+      "hashPath": "bitmiracle.docotic.pdf.8.8.14015.nupkg.sha512"
+    },
+    "ILMerge/3.0.41": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-u9n45xs40bSGoNFcmMYJkh3zkGYKR4BqzQaX2uHc2Ay4drdiQOTeo/1ECps3ttDXOu4Q6qbTnsIbQWb/06ShqA==",
+      "path": "ilmerge/3.0.41",
+      "hashPath": "ilmerge.3.0.41.nupkg.sha512"
+    },
+    "System.Reflection.Emit/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VR4kk8XLKebQ4MZuKuIni/7oh+QGFmZW3qORd1GvBq/8026OpW501SzT/oypwiQl4TvT8ErnReh/NzY9u+C6wQ==",
+      "path": "system.reflection.emit/4.7.0",
+      "hashPath": "system.reflection.emit.4.7.0.nupkg.sha512"
+    },
+    "Tesseract/5.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YB7feJlrTWSXtK8+WaCcseGSPK/1r2d2FWeKGyndlrPwYClrzTlCoHD4/oQEUjKafmpkWlhTZZ7pxiRJYZgj6w==",
+      "path": "tesseract/5.2.0",
+      "hashPath": "tesseract.5.2.0.nupkg.sha512"
+    }
+  }
+}
